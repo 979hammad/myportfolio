@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+   <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <title>Portfolio</title>
+</head>
+<body >
+<!-- navabar -->
+
+{{>navbar}}
+
+<!-- body -->
+
+<div class="mypic offfdisplay" >
+    <div class="upperMyPic">
+       <h1 class="heading">FREELANCE WEB-DEVELPOR</h1>
+       <P class="read" style="font-weight: 600; letter-spacing: 2px;">Freelance specialist in responsive website development...</P>
+       <p class="read">Regardless of what kind of small business you are running, having a website accessible on a 7-day 24-hour basis without taking breaks for holidays and weekends is a huge advantage. While your physical shop is closed at night, your online shop can keep on selling and bringing you income by catering to customers at any time that is convenient for them.</p>
+    </div>
+    <div class="lowerMyPic">
+          <img src="/images/Untitled-gfh.png" alt="">
+    </div>
+</div>
+
+<div class="backgroundSer offfdisplay">
+
+<h1 class="servHeading" id="servicesH">Services</h1>
+<p class="servP">I will help your business to grow using the power of Website and Posters etc</p>
+
+<div class="services" >
+       <div  id="ser1" class="serv">
+          <img src="/images/webdesign.png" alt=""> 
+          <p class="name">Web-Design</p>
+          <p class="readMore">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maxime aperiam soluta ex!</p>
+          <button class="btnVisit"><a href="/webDesign">Let's See</a></button>
+        </div>
+       <div id="ser2" class="serv">
+          <img src="/images/webdevelopment.png" alt=""> 
+          <p class="name">Web-Development</p>
+          <p class="readMore">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maxime aperiam soluta ex!</p>
+          <button class="btnVisit"><a href="/webDevelopment">Let's See</a></button>
+       </div>
+       <div id="ser3" class="serv">
+          <img src="/images/graphicdesign.png" alt="">
+          <p class="name">Graphic-Design</p>
+          <p class="readMore">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maxime aperiam soluta ex!</p>
+          <button class="btnVisit" ><a href="/graphicDesigning">Let's See</a></button>
+       </div>
+</div>
+</div>
+
+<div class="background offfdisplay">
+<div class="contactUs" id="contactUsId">
+   <h1 class="heading2">Contact Us!</h1>
+   <p class="p2">Helping business succeed through the power of Website.</p>
+   <div class="icons">
+      <a href="#"><img src="/images/facebook.png" alt=""></a>
+      <a href="#"><img src="/images/linkedin.png" alt=""></a>
+      <a href="#"><img src="/images/instagram.png" alt=""></a>
+   </div>
+</div>
+
+<form action="/contact" method="post" class="message">
+    <p class="">Name</p>
+    <input type="text" name="name" id="">
+    <p class="">Email</p>
+    <input type="email" name="email" id="">
+    <p class="numberMargin">Phone</p>
+    <input class="" type="number" name="phone" id="">
+    <p class="messageMargin">Message</p>
+    <input type="text" name="message" id="">
+    <button type="submit">Submit</button>
+</form>
+
+{{>footer}}
+</div>
+
+<script src="/javascript/javascript.js"></script>
+</body>
+</html>

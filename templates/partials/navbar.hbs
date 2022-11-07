@@ -1,0 +1,35 @@
+<nav class="navbar sticky">
+       <div class="navbarImg">
+          <img src="images/Untitled-1.png" alt="">
+       </div>
+       <div class="navbarTags">
+        <a href="/home">Home</a>
+        <a href="/about" >About</a>
+        <a href="#serviceId" id="carotDown" onclick="dashboard3Close()" >Services<i class="fa-solid fa-caret-down"></i></a>
+        <a href="#contactUsId"  >Contact Us!</a>
+        
+       </div>
+       <div class="lines" ><img  src="/images/lines.png" class="liness" onclick="openDash()" alt=""></div>
+       <div class="logomobile"><img src="images/Untitled-1.png" alt=""></div>
+       <!-- side navbar -->
+       <div class="dashboard ">
+         <a href="/home" class="dashboard2Close">Home</a>
+         <a href="/about" class="dashboard2Close">About</a>
+         <a href="#serviceId" class="caretright" onclick="openSecond()" >Services<i class="fa-solid fa-caret-right"></i></a>
+         <a href="#contactUsId" class="dashboard2Close">Contact Us!</a>
+       </div>
+
+       <div class="dashboard2 " onmouseleave="closedashboard2()">
+         <a href="/home" id="serviceId">All</a>
+         <a href="/webDesign">Web-Design</a>
+         <a href="/webDevelopment">Web-Development</a>
+         <a href="/graphicDesigning">Graphic Designing</a>
+       </div>
+
+       <div class="dashboard3 display3" onmouseleave="dashboard3Open()">
+         <a href="/home" id="serviceId">All</a>
+         <a href="/webDesign">Web-Design</a>
+         <a href="/webDevelopment">Web-Development</a>
+         <a href="/graphicDesigning">Graphic Designing</a>
+       </div>
+</nav>

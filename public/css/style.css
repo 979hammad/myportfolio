@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@800&family=Noto+Sans:wght@300&display=swap');
+
+*{    margin: 0;
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(1, 17, 58);
+}
+
+.lines{
+    display: none;
+}
+
+.logomobile{
+    display: none;
+}
+
+.lines img{
+    display: none;
+}
+
+.dashboard{
+    display: none;
+}
+
+#carotDown i{
+    padding-left: 0.5vw;
+}
+
+.dashboard2{
+    display: none;
+}
+
+.dashboard3{
+    display: block;
+    width: 30vw;
+    position: fixed;
+    top: 5.77vw;
+    right: 11vw;
+    height: 16vw;
+    width: 13vw;
+    background-image: linear-gradient(-45deg,rgb(0, 32, 112) 0%, rgb(0, 17, 60) 50%);
+
+}
+/*  */
+.display3{
+    display: none;
+}
+
+.dashboard3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 1vw 1vw 1vw;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+
+.dashboard3 a:hover{
+    background-color: rgb(232, 186, 0);
+}
+
+hr{
+    margin: 0.5vw 9vw 0.5vw 10vw;
+}
+
+.navbar{
+    padding: 0.5vw 9vw 0.5vw 10vw;
+    background-color: rgb(1, 17, 58);
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .navbarImg img{
+    width:40%;
+    height: auto;
+}
+
+.navbarTags a{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 1vw 0 1vw;
+    font-size: 1.3vw;
+}
+
+.navbarTags a:hover{  
+    transition: all 0.3s ease-in-out 0.1s;
+    color: rgb(255, 213, 0);
+}
+
+.mypic{
+    padding: 6vw 6vw 8vw 14vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("/images/background.png");
+    background-size: cover;
+}
+
+.lowerMyPic img{
+    width: 40vw;
+    height: auto;
+}
+
+.upperMyPic{
+    padding-top: 5vw;
+    width: 70vw;
+}
+
+.mypic .upperMyPic .read{
+    color: rgb(198, 198, 198);
+    font-size: 1.3vw;
+    padding-bottom: 1vw;
+}
+
+.heading{
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2vw;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    color: rgb(255, 213, 0) ;
+    padding-bottom: 2vw;
+}
+
+.backgroundSer{
+    padding-top: 3vw;
+    padding-bottom: 6vw;
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+}
+
+.servHeading{
+    
+    cursor: pointer;
+    text-align: center;
+    padding: 3vw 0 1vw 0;
+    font-size:3.4vw;
+    color: rgb(0, 1, 60);
+    letter-spacing: 3px;
+}
+
+.servP{
+   
+    font-weight: bold;
+    text-align: center;
+    padding: 0 20vw 1vw 20vw;
+    font-size:1vw;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+.services{
+  
+    padding: 0.5vw 10vw 0.5vw 13vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.serv{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px 40px 10px;
+    background-color: rgb(0, 16, 56);   
+    border-radius: 4%;
+    margin: 0 2vw 0 2vw;
+    width: 13000px;
+}
+
+.serv:hover{
+    transform : scale(1.05);
+    transition: all 0.3s ease-in-out 0.1s;
+    background-image: linear-gradient(45deg,rgb(0, 32, 112) 0%, rgb(0, 17, 60) 50%);
+}
+
+.serv img{
+    width: 60px;
+    border-radius: 100%;
+}
+
+.name{
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 1.3vw;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+}
+
+.readMore{
+    color: rgb(230, 230, 230);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.1vw;
+}
+
+#ser2{
+    margin-bottom: 3vw;
+}
+
+#ser1 , #ser3{
+    margin-top: 4vw;
+    margin-bottom: 3vw;
+}
+
+.btnVisit{
+    margin-top: 25px;
+    background-color:  rgb(232, 186, 0);
+    border-radius: 8%;
+    border: none;
+    padding: 10px;
+}
+
+.btnVisit a{
+    text-decoration: none;
+    color:  rgb(0, 16, 56);
+    font-weight: bolder;
+    font-size: 1.1vw;
+    letter-spacing: 2px;
+    
+}
+
+.btnVisit:hover{
+    background-color:  rgb(255, 212, 39);
+    cursor: pointer;
+}
+
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    /* background-color: rgb(1, 17, 58); */
+    color: white;
+}
+
+.contactUs .heading2{
+    cursor: pointer;
+    padding: 3vw 0 1vw 0;
+    font-size:3.4vw;
+    color: rgb(255, 213, 0) ;
+    letter-spacing: 3px;
+}
+
+.p2{
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.icons{
+    padding: 0.5vw 10vw 0.5vw 39vw;
+}
+
+
+.icons a img{
+    transform: scale();
+    width: 8%;
+    height: auto;
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+.icons a img:hover{
+    transform : scale(1.1);
+    transition: all 0.1s ease-in-out 0.1s;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5vw 10vw 3vw 10vw;
+    /* background-color: rgb(1, 17, 58); */
+
+    color: white;
+}
+
+.message input{
+    font-size: 1.3vw;
+    padding-left: 1vw;
+    width: 50vw;
+    height: 3vw;
+    outline: none;
+}
+
+.message p{
+  
+    margin-right: 46vw;
+    padding: 1vw 0 0.3vw 0;
+    font-size: 1.4vw;
+}
+
+.message .numberMargin{
+    margin-right: 45vw;
+}
+
+.message .messageMargin{
+    margin-right: 43.4vw;
+}
+
+
+.message button{
+    width: 51.5vw;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+    background-color:  rgb(232, 186, 0) ;
+    color:  rgb(1, 17, 58);
+    font-size: 1.1vw;
+    letter-spacing: 2px;
+    padding: 1vw;
+    border: none;
+    border-radius: 0.3vw;
+}
+
+.message button:hover{
+    background-color:  rgb(255, 212, 39);
+    cursor: pointer;
+}
+
+.background{
+    background-image: url("/images/background.png");
+    background-size: cover;
+}
+
+.footerWorking{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer{
+    
+    background-color: rgb(1, 17, 58);
+    padding: 1vw 0 1vw 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+}
+
+.working-h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4vw;   
+    font-size: 1vw;
+    color: rgb(255, 255, 255);;
+}
+
+.working-h1 h1{
+    letter-spacing: 0.5vw;
+     padding: 2vw 20.2vw 2vw 20.2vw;
+     background-color: red;
+}
+
+.working-h1 img{
+    width: 90vw;
+    height: auto;
+}
+
+/* media queries */
+@media only screen and (max-width: 745px) {
+
+    .navbar{
+        height: 6vw;
+    }
+    .navbar .navbarImg img{
+        width:20%;
+        height: auto;
+    }
+    .mypic{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .lowerMyPic img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 70vw;
+    }
+
+    .mypic .upperMyPic .read{
+       
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    
+    .heading{
+        text-align: center;
+        padding-top: 5vw;
+        font-size: 3vw;
+    }
+
+    .p2{
+        font-size: 1vw;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    .services{
+        padding: 0.5vw 6vw 0.5vw 10vw; 
+    }
+    
+    .serv{
+        padding: 30px 2px 30px 2px;
+    }
+
+    .name, .readMore{
+        padding-top: 10px;
+    }
+
+    .btnVisit{
+        margin-top: 15px;
+        padding: 5px;
+      
+    }
+    
+   
+  }
+
+@media only screen and (max-width: 543px) {
+    .lines{
+        display: block;
+    }
+
+    .logomobile{
+        display: block;
+    }
+
+    .logomobile img{
+        width: 9vw;
+        height: auto;
+    }
+
+    .navbarTags a{
+        display: none;
+    }
+    
+    .navbar{
+        padding-top: 1vw;
+        height: 6.3vw;
+    }
+ 
+    .dashboard3{
+        display: none;
+    }
+
+    .displayOn{
+       display: block;
+       width: 30vw;
+       position: fixed;
+       top:6.5vw;
+       height: 40vw;
+       background-image: linear-gradient(-45deg,rgb(0, 32, 112) 0%, rgb(0, 17, 60) 50%);
+
+    }
+
+    .caretright i{
+       position: fixed;
+       top: 28.5vw;
+       left: 24vw;
+       padding-left: 0.5vw;
+       z-index: 12;
+    }
+
+    .dashboard a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        padding: 3vw 2vw 2vw 2vw;
+        cursor: pointer;
+        font-size: 3vw;
+    }
+    
+    .dashboard2show{
+        display: block;
+        width: 30vw;
+        position: fixed;
+        top:25vw;
+        left: 40vw;
+        height: 40vw;
+        background-image: linear-gradient(-45deg,rgb(0, 32, 112) 0%, rgb(0, 17, 60) 50%);
+    }
+
+    .dashboard2show a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        padding: 3vw 2vw 2vw 2vw;
+        cursor: pointer;
+        font-size: 3vw;
+    }
+
+    .dashboard2show a:hover{
+        background-color: rgb(232, 186, 0);
+    }
+
+    .dashboard a:hover{
+        background-color: rgb(232, 186, 0);
+    }
+
+    .lines img{
+        cursor: pointer;
+        top: 1vw;
+        width: 5.3vw;
+        position: fixed;
+        right: 84vw;
+        display: block;
+    }
+
+    .navbar .navbarImg img{
+       display: none;
+    }
+
+    .lowerMyPic img{
+        width: 70vw;
+    }
+
+    .p2{
+        letter-spacing: 2px;
+    }
+
+    .mypic .upperMyPic .read{
+        font-size: 1.7vw;
+        padding-bottom: 1vw;
+    }
+
+    .servHeading{ 
+        padding: 5vw 0 1vw 0;
+ 
+    }
+
+    .services{
+        padding: 0.1vw 8vw 0.1vw 8vw; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     
+    }
+    
+    .serv{
+      
+        padding: 30px 2px 30px 2px;
+        width: 85vw;
+        border-radius: 0px;
+    }
+
+    #ser2{
+        margin-bottom: 0;
+    }
+
+    .btnVisit a{ 
+        font-size: 2vw;
+    }
+
+    .name{   
+        font-size: 3vw;
+    }
+    
+    .readMore{
+        padding: 0 20vw 0 20vw;
+        font-size: 2vw;
+    }
+    
+    .name, .readMore{
+        padding-top: 10px;
+    }
+
+    .btnVisit{
+        margin-top: 15px;
+        padding: 5px;
+        font-size: 2vw;
+    }
+    
+    .icons{
+        padding: 0.5vw 10vw 0.5vw 35vw;
+    }
+
+    .message button{
+        width: 52vw;
+       
+    }
+    
+  }
