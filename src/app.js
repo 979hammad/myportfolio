@@ -31,7 +31,7 @@ app.get("/webdesign", (req , res)=>{
 })
 
 app.get("/webDevelopment", (req , res)=>{
-    res.render("webdevelopment");
+    res.render("webdevelopmentt");
 })
 
 app.get("/graphicDesigning", (req , res)=>{
