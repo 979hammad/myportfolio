@@ -23,7 +23,7 @@ app.get("/", (req , res)=>{
  })
 
 app.get("/home", (req , res)=>{
-   res.render("index");
+    res.render("index");
 })
 
 app.get("/webdesign", (req , res)=>{
@@ -31,7 +31,7 @@ app.get("/webdesign", (req , res)=>{
 })
 
 app.get("/webDevelopment", (req , res)=>{
-    res.render("webDevelopment");
+    res.render("webdevelopment");
 })
 
 app.get("/graphicDesigning", (req , res)=>{
