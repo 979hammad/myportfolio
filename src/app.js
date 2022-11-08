@@ -18,6 +18,10 @@ hbs.registerPartials(partialsPath);
 app.use(express.urlencoded({extended:false}));
 app.use(express.static(staticPath));
 
+app.get("/", (req , res)=>{
+    res.render("index");
+ })
+
 app.get("/home", (req , res)=>{
    res.render("index");
 })
